@@ -1,0 +1,14 @@
+site_name: n0signal · 0xkb
+site_url: https://Kaninte.github.io/0xkb/
+theme:
+  name: dracula
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
