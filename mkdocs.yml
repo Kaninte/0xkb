@@ -18,3 +18,8 @@ markdown_extensions:
       permalink: false
 nav:
   - Home: index.md
+  - OS:
+      - "Microsoft Install": docs/os_install_microsoft.md
+  - LLM:
+      - "LLM Jailbreaking": docs/llm_jailbreaking.md
+      - "LLM Gandalf": docs/llm_gandalf.md
