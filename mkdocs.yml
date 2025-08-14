@@ -2,13 +2,23 @@ site_name: n0signal · 0xkb
 site_url: https://Kaninte.github.io/0xkb/
 theme:
   name: simple-blog
+  theme_style: dark
+  sidebar: true
+  components:
+    footer: false
+  favicon: assets/favicon.ico
+  logo: assets/logo.png
   features:
     - navigation.instant
     - navigation.sections
     - content.code.copy
+    
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
 nav:
   - Home: index.md
+  
+  components:
+    footer: true
