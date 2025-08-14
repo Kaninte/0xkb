@@ -19,6 +19,3 @@ markdown_extensions:
       permalink: true
 nav:
   - Home: index.md
-  
-  components:
-    footer: true
