@@ -4,6 +4,7 @@ theme:
   name: simple-blog
   theme_style: dark
   sidebar: true
+  navigation_depth: 2
   components:
     footer: false
   favicon: assets/favicon.ico
