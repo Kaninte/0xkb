@@ -19,7 +19,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - OS:
-      - "Microsoft Install": docs/os_install_microsoft.md
+      - "Microsoft Install": os_install_microsoft.md
   - LLM:
-      - "LLM Jailbreaking": docs/llm_jailbreaking.md
-      - "LLM Gandalf": docs/llm_gandalf.md
+      - "LLM Jailbreaking": llm_jailbreaking.md
+      - "LLM Gandalf": llm_gandalf.md
