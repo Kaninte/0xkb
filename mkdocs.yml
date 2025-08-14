@@ -8,6 +8,7 @@ theme:
   navigation_depth: 2
   components:
     footer: false
+    title: false
   favicon: assets/favicon.ico
   logo: assets/logo.png
 
