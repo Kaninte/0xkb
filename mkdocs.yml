@@ -23,3 +23,5 @@ nav:
   - LLM:
       - "LLM Jailbreaking": llm_jailbreaking.md
       - "LLM Gandalf": llm_gandalf.md
+extra_css:
+  - assets/heading-fix.css
