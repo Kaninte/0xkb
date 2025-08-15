@@ -1,4 +1,4 @@
-/* ===== Blacksite overrides (Dracula / ReadTheDocs layout) ===== */
+/* ===== blacksite overrides ===== */
 :root{
   --bg:#0a0b0d; --bg2:#0c1015; --fg:#e6e8eb; --muted:#9aa3ad;
   --accent:#7cf; --accent2:#9f7cff; --border:rgba(255,255,255,.06);
@@ -25,7 +25,7 @@ html,body,.wy-body-for-nav,.wy-nav-content-wrap,.wy-nav-content,.rst-content{
 .rst-content a:hover{ border-bottom-color:var(--accent)!important; }
 
 /* Code blocks / inline */
-.rst-content pre,pre{
+/*.rst-content pre,pre{
   background:#0b0e12!important; color:#dfe7ee!important; border:1px solid #0e141b!important;
   border-radius:12px!important; box-shadow:0 8px 30px rgba(0,0,0,.45)!important;
   font-family:var(--mono)!important;
@@ -34,25 +34,23 @@ html,body,.wy-body-for-nav,.wy-nav-content-wrap,.wy-nav-content,.rst-content{
   background:rgba(124,255,255,.08)!important; border:1px solid rgba(124,255,255,.15)!important;
   border-radius:8px!important; padding:.08rem .35rem!important; font-family:var(--mono)!important;
 }
+*/
 
 /* Admonitions / callouts */
 .admonition,.wy-alert{
   background:var(--bg2)!important; border-left:3px solid var(--accent)!important; border-radius:12px!important;
 }
 
-/* Target the purple/cyan divider bar */
+/* Remove purple/cyan divider bar */
 nav.divider.drac-bg-purple-cyan {
-  /* Option A: make it match your blacksite bg */
   background: #0a0b0d !important;
-  /* If it’s a gradient, nuke it first */
   background-image: none !important;
-  /* Optional: slim it down or remove spacing */
-  height: 1px !important;       /* or whatever */
+  height: 1px !important;
   margin: 0 !important;
   border: 0 !important;
 }
 
-/* Hide the footer completely */
+/* Remove footer */
 footer {
   display: none !important;
 }
