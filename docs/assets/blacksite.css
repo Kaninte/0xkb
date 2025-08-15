@@ -40,5 +40,14 @@ html,body,.wy-body-for-nav,.wy-nav-content-wrap,.wy-nav-content,.rst-content{
   background:var(--bg2)!important; border-left:3px solid var(--accent)!important; border-radius:12px!important;
 }
 
-/* Hide the purple/cyan divider bar */
-nav.divider.drac-bg-purple-cyan { display: none !important; }
+/* Target the purple/cyan divider bar */
+nav.divider.drac-bg-purple-cyan {
+  /* Option A: make it match your blacksite bg */
+  background: #0a0b0d !important;
+  /* If it’s a gradient, nuke it first */
+  background-image: none !important;
+  /* Optional: slim it down or remove spacing */
+  height: 1px !important;       /* or whatever */
+  margin: 0 !important;
+  border: 0 !important;
+}
