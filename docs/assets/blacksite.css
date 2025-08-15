@@ -61,10 +61,30 @@ footer {
 }
 
 /* Blackout sidebar button */
+/*
 #sidebarCollapse.btn.btn-primary {
-  background: black !important; /* solid black background */
-  border: none !important; /* optional: remove border */
+  background: black !important; 
+  border: none !important; 
 }
 #sidebarCollapse.btn.btn-primary:hover {
-  background: #111 !important; /* slightly lighter/darker on hover */
+  background: #111 !important; 
+}
+*/
+/* Black out the wrapper bar */
+.custom-menu {
+  background: black !important;
+}
+
+/* Force button background to solid black */
+#sidebarCollapse.btn.btn-primary {
+  background: black !important;
+  border: none !important;
+}
+
+/* Remove any gradients or background images on the button */
+#sidebarCollapse.btn.btn-primary,
+#sidebarCollapse.btn.btn-primary::before,
+#sidebarCollapse.btn.btn-primary::after {
+  background-image: none !important;
+  box-shadow: none !important;
 }
