@@ -13,6 +13,7 @@ theme:
 
 markdown_extensions:
   - admonition
+  - nl2br 
   - toc:
       permalink: false
 nav:
