@@ -59,3 +59,12 @@ footer {
 .drac-box.flex-column {
   display: none !important;
 }
+
+/* Blackout sidebar button */
+#sidebarCollapse.btn.btn-primary {
+  background: black !important; /* solid black background */
+  border: none !important; /* optional: remove border */
+}
+#sidebarCollapse.btn.btn-primary:hover {
+  background: #111 !important; /* slightly lighter/darker on hover */
+}
