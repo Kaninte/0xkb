@@ -51,3 +51,8 @@ nav.divider.drac-bg-purple-cyan {
   margin: 0 !important;
   border: 0 !important;
 }
+
+/* Hide the footer completely */
+footer {
+  display: none !important;
+}
