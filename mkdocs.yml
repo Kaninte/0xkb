@@ -26,3 +26,5 @@ nav:
 extra_css:
   - assets/heading-fix.css
   - assets/blacksite.css
+extra_javascript:
+  - assets/logo-link.js
