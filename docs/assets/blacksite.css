@@ -54,3 +54,8 @@ nav.divider.drac-bg-purple-cyan {
 footer {
   display: none !important;
 }
+
+/* Remove dot-ui */
+dot-ul {
+  display: none !important;
+}
