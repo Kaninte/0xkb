@@ -30,12 +30,14 @@ html,body,.wy-body-for-nav,.wy-nav-content-wrap,.wy-nav-content,.rst-content{
 }
 
 /* Recolour purple/cyan divider bar */
-nav.divider.drac-bg-purple-cyan {
+nav.divider.drac-bg-purple-cyan,
+nav.divider.drac-bg-purple-cyan::before,
+nav.divider.drac-bg-purple-cyan::after {
+  background-color: #121212 !important;
   background: #121212 !important;
   background-image: none !important;
-  height: 1px !important;
-  margin: 0 !important;
-  border: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 /* Remove footer */
 footer {
