@@ -1,89 +1,77 @@
-/* ===== Blacksite pass — strong overrides ===== */
-
-/* Base palette via variables (used by our rules below) */
+/* ===== Blacksite overrides (Dracula/RTD layout) ===== */
 :root{
-  --blacksite-bg: #0a0b0d;
-  --blacksite-bg-elev: #0c1015;
-  --blacksite-fg: #e6e8eb;
-  --blacksite-muted: #9aa3ad;
-  --blacksite-accent: #7cf;   /* cyan */
-  --blacksite-accent2: #9f7cff;
-  --blacksite-border: rgba(255,255,255,.06);
-  --blacksite-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
-  --blacksite-ui: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  --bg: #0a0b0d;           /* deep noir */
+  --bg2:#0c1015;
+  --fg: #e6e8eb;
+  --muted:#9aa3ad;
+  --accent:#7cf;           /* cyan */
+  --accent2:#9f7cff;
+  --border: rgba(255,255,255,.06);
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --ui: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Global canvas */
+/* Global canvas & type */
 html, body,
-.wy-nav-content-wrap,
-.wy-nav-content,
-.rst-content {
-  background: var(--blacksite-bg) !important;
-  color: var(--blacksite-fg) !important;
-  font-family: var(--blacksite-ui);
+.wy-nav-content-wrap, .wy-nav-content, .rst-content {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+  font-family: var(--ui);
   text-rendering: optimizeLegibility;
 }
 
-/* Header + sidebar shells */
-.wy-nav-top,
-.wy-side-nav-search,
-.wy-nav-side {
+/* Header + side shell */
+.wy-nav-top, .wy-side-nav-search, .wy-nav-side {
   background: linear-gradient(180deg, #0a0b0d, #07080a) !important;
-  border-right: 1px solid var(--blacksite-border) !important;
+  border-right: 1px solid var(--border) !important;
 }
 
-/* Content cards / sections */
-.rst-content section,
-.rst-content .section {
-  background: transparent !important;
-  border-radius: 12px;
-}
+/* Content width (optional: tweak max width) */
+.wy-nav-content { max-width: 1100px; }
 
-/* Headings hierarchy (some themes make h3 bigger than h2) */
+/* Headings: enforce hierarchy (some themes make h3 too large) */
 .rst-content h1 { font-size: 2.0rem !important; letter-spacing:.02em; }
 .rst-content h2 { font-size: 1.45rem !important; letter-spacing:.02em; }
 .rst-content h3 { font-size: 1.2rem  !important; letter-spacing:.01em; }
 
 /* Links */
-.rst-content a,
-.wy-nav-content a {
-  color: var(--blacksite-accent) !important;
+.rst-content a, .wy-nav-content a {
+  color: var(--accent) !important;
   text-decoration: none;
   border-bottom: 1px dashed rgba(124,255,255,.35);
 }
-.rst-content a:hover { border-bottom-color: var(--blacksite-accent) !important; }
+.rst-content a:hover { border-bottom-color: var(--accent) !important; }
 
-/* Code */
-.rst-content code, code, pre {
-  font-family: var(--blacksite-mono) !important;
-}
+/* Code blocks / inline */
 .rst-content pre, pre {
   background: #0b0e12 !important;
   color: #dfe7ee !important;
   border: 1px solid #0e141b !important;
   border-radius: 12px !important;
   box-shadow: 0 8px 30px rgba(0,0,0,.45) !important;
+  font-family: var(--mono) !important;
 }
 .rst-content code {
   background: rgba(124,255,255,.08) !important;
   border: 1px solid rgba(124,255,255,.15) !important;
   border-radius: 8px !important;
   padding: .08rem .35rem !important;
+  font-family: var(--mono) !important;
 }
 
 /* Admonitions / callouts */
 .admonition, .wy-alert {
-  background: var(--blacksite-bg-elev) !important;
-  border-left: 3px solid var(--blacksite-accent) !important;
+  background: var(--bg2) !important;
+  border-left: 3px solid var(--accent) !important;
   border-radius: 12px !important;
 }
 
-/* Sidebar overlay behavior on small screens (stop content shifting) */
+/* Mobile: stop sidebar from pushing content */
 @media (max-width: 1024px){
   .wy-nav-content-wrap { margin-left: 0 !important; }
 }
 
-/* Optional: subtle noise/screen effect */
+/* Optional: subtle CRT/noise */
 body::before{
   content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
   background-image: radial-gradient(transparent 60%, rgba(124,255,255,.03) 61%),
