@@ -3,7 +3,7 @@ site_url: https://Kaninte.github.io/0xkb/
 
 theme:
   name: simple-blog
-  theme_style: dark
+  theme_style: dracula
   sidebar: true
   navigation_depth: 2
   components:
