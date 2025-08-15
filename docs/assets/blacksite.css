@@ -56,6 +56,6 @@ footer {
 }
 
 /* Remove dot-ui */
-dot-ul {
+.drac-box.flex-column {
   display: none !important;
 }
