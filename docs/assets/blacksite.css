@@ -24,32 +24,19 @@ html,body,.wy-body-for-nav,.wy-nav-content-wrap,.wy-nav-content,.rst-content{
 }
 .rst-content a:hover{ border-bottom-color:var(--accent)!important; }
 
-/* Code blocks / inline */
-/*.rst-content pre,pre{
-  background:#0b0e12!important; color:#dfe7ee!important; border:1px solid #0e141b!important;
-  border-radius:12px!important; box-shadow:0 8px 30px rgba(0,0,0,.45)!important;
-  font-family:var(--mono)!important;
-}
-.rst-content code{
-  background:rgba(124,255,255,.08)!important; border:1px solid rgba(124,255,255,.15)!important;
-  border-radius:8px!important; padding:.08rem .35rem!important; font-family:var(--mono)!important;
-}
-*/
-
 /* Admonitions / callouts */
 .admonition,.wy-alert{
   background:var(--bg2)!important; border-left:3px solid var(--accent)!important; border-radius:12px!important;
 }
 
-/* Remove purple/cyan divider bar */
+/* Recolour purple/cyan divider bar */
 nav.divider.drac-bg-purple-cyan {
-  background: #0a0b0d !important;
+  background: #121212 !important;
   background-image: none !important;
   height: 1px !important;
   margin: 0 !important;
   border: 0 !important;
 }
-
 /* Remove footer */
 footer {
   display: none !important;
@@ -61,27 +48,6 @@ footer {
 }
 
 /* Blackout sidebar button */
-/*
-#sidebarCollapse.btn.btn-primary {
-  background: black !important; 
-  border: none !important; 
-}
-#sidebarCollapse.btn.btn-primary:hover {
-  background: #111 !important; 
-}
-
-
-.custom-menu {
-  background: black !important;
-}
-
-
-#sidebarCollapse.btn.btn-primary {
-  background: black !important;
-  border: none !important;
-}
-*/
-/* Remove any gradients or background images on the button */
 #sidebarCollapse.btn.btn-primary,
 #sidebarCollapse.btn.btn-primary::before,
 #sidebarCollapse.btn.btn-primary::after {
@@ -89,7 +55,7 @@ footer {
   box-shadow: none !important;
 }
 
-/* Override Dracula's black with a custom dark grey */
+/* Change menu bar to dark grey */
 #sidebar.drac-bg-black {
-  background-color: #121212 !important; /* change this hex for lighter/darker grey */
+  background-color: #121212 !important;
 }
