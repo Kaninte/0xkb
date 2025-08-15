@@ -60,3 +60,66 @@ body::before{
                    repeating-linear-gradient(0deg, rgba(255,255,255,.015) 0 2px, transparent 2px 4px);
   mix-blend-mode:soft-light;
 }
+
+/* === Top bar (hamburger/title strip) === */
+.wy-nav-top {
+  background: linear-gradient(180deg, #0a0b0d, #07080a) !important;
+  border-bottom: 1px solid rgba(255,255,255,.06) !important;
+}
+.wy-nav-top a, .wy-nav-top .fa, .wy-nav-top i {
+  color: #e6e8eb !important;
+}
+
+/* === Sidebar (outer shell + inner menu) === */
+.wy-nav-side,
+.wy-side-nav-search {
+  background: linear-gradient(180deg, #0a0b0d, #07080a) !important;
+  border-right: 1px solid rgba(255,255,255,.06) !important;
+}
+
+/* Sidebar menu items: default, current, hover */
+.wy-menu-vertical a {
+  background: transparent !important;
+  color: #cfd5db !important;
+}
+.wy-menu-vertical a:hover,
+.wy-menu-vertical li.toctree-l1.current > a,
+.wy-menu-vertical li.toctree-l2.current > a,
+.wy-menu-vertical li.current > a {
+  background: #0c1015 !important;
+  color: #e6e8eb !important;
+  border-left: 3px solid #7cf !important; /* accent bar */
+}
+
+/* Optional: collapse/expand carets & search box colors */
+.wy-side-nav-search input[type="text"] {
+  background: #0b0e12 !important;
+  border: 1px solid #0e141b !important;
+  color: #e6e8eb !important;
+}
+.wy-menu-vertical span.toctree-expand {
+  color: #9aa3ad !important;
+}
+
+/* === Footer area (buttons row + footer strip) === */
+.rst-footer-buttons {
+  background: #0a0b0d !important;
+  border-top: 1px solid rgba(255,255,255,.06) !important;
+}
+.rst-footer-buttons .btn {
+  background: rgba(124,255,255,.08) !important;
+  border: 1px solid rgba(124,255,255,.25) !important;
+  color: #e6e8eb !important;
+}
+footer, .wy-footer {
+  background: #0a0b0d !important;
+  border-top: 1px solid rgba(255,255,255,.06) !important;
+  color: #9aa3ad !important;
+}
+footer a { color: #7cf !important; }
+
+/* (Keep mobile fix so sidebar doesn't push content) */
+@media (max-width:1024px){
+  .wy-nav-content-wrap{ margin-left:0!important; }
+}
+
