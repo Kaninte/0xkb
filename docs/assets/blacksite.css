@@ -56,8 +56,8 @@ footer {
 
 /* Logo scale & hover */
 .logo {
-  height: 150px;       /* max height constraint */
-  width: auto;         /* preserves aspect ratio */
+  height: auto;       /* max height constraint */
+  width: 200px;         /* preserves aspect ratio */
   object-fit: contain; /* prevents distortion */
   transition: opacity 0.3s ease;
 }
