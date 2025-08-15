@@ -25,3 +25,4 @@ nav:
       - "LLM Gandalf": llm_gandalf.md
 extra_css:
   - assets/heading-fix.css
+  - assets/blacksite.css
