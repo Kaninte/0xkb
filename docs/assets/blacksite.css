@@ -48,9 +48,21 @@ nav.divider.drac-bg-purple-cyan::after {
   box-shadow: none !important;
   border: none !important;
 }
+
 /* Remove footer */
 footer {
   display: none !important;
+}
+
+/* Logo scale & hover */
+.logo {
+  height: 150px;       /* max height constraint */
+  width: auto;         /* preserves aspect ratio */
+  object-fit: contain; /* prevents distortion */
+  transition: opacity 0.3s ease;
+}
+.logo:hover {
+  content: url("../assets/logo-hover.png"); /* swap image on hover */
 }
 
 /* Remove dot-ui */
@@ -70,3 +82,4 @@ footer {
 #sidebar.drac-bg-black {
   background-color: #121212 !important;
 }
+
