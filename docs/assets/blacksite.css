@@ -57,9 +57,13 @@ footer {
 /* Logo scale & hover */
 .logo {
   height: auto;       /* max height constraint */
-  width: 500px;         /* preserves aspect ratio */
+  width: 100%;         /* preserves aspect ratio */
   object-fit: contain; /* prevents distortion */
   transition: opacity 0.3s ease;
+}
+#sidebar img.logo {
+  width: 90% !important; /* fills most of sidebar */
+  max-width: 250px;      /* hard stop if sidebar is huge */
 }
 .logo:hover {
   content: url("../assets/logo-hover.png"); /* swap image on hover */
