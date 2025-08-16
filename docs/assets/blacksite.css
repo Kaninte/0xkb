@@ -93,8 +93,8 @@ blockquote {
   margin: 1rem 0;
   padding: .9rem 1rem .9rem 1.1rem;
   background: #303741;                       /* dark panel */
-  color: #c9d1d9;                             /* slightly muted text */
-  border-left: 3px solid #adc2d2;                /* neon accent bar */
+  color: #303741;                             /* slightly muted text */
+  border-left: 3px solid #c9d1d9;                /* neon accent bar */
   border-radius: 8px;
 }
 
