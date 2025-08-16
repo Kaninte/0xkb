@@ -87,3 +87,13 @@ footer {
   background-color: #121212 !important;
 }
 
+/* Blockquote styling */
+blockquote {
+  border-left: 3px solid #7cf;   /* accent color */
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #aaa;                   /* dim text */
+  font-style: italic;
+  background: rgba(255,255,255,0.03); /* subtle background */
+  border-radius: 4px;
+}
