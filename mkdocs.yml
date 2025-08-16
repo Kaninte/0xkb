@@ -16,8 +16,12 @@ markdown_extensions:
   - nl2br 
   - toc:
       permalink: false
-  - codehilite:
+  - pymdownx.highlight:
       guess_lang: false
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  
 nav:
   - Home: index.md
   - OS:
