@@ -95,7 +95,7 @@ blockquote {
   padding: .9rem 1rem .9rem 1.1rem;
   background: #171820;                       /* dark panel */
   color: #c9d1d9;                             /* slightly muted text */
-  border-left: 3px solid #aaa;                /* neon accent bar */
+  border-left: 3px solid #171820;                /* neon accent bar */
   border-radius: 8px;
 }
 
