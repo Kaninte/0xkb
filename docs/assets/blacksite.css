@@ -88,13 +88,14 @@ footer {
 }
 
 /* Blockquote styling */
+/* Loud, blacksite-style blockquotes */
 blockquote {
   position: relative;
   margin: 1rem 0;
   padding: .9rem 1rem .9rem 1.1rem;
-  background: #303741;                       /* dark panel */
-  color: #303741;                             /* slightly muted text */
-  border-left: 3px solid #303741;                /* neon accent bar */
+  background: #0c1015;                       /* dark panel */
+  color: #c9d1d9;                             /* slightly muted text */
+  border-left: 3px solid #7cf;                /* neon accent bar */
   border-radius: 8px;
 }
 
@@ -107,6 +108,10 @@ blockquote ol,
 blockquote pre,
 blockquote code { color: inherit; }
 
+/* Optional: italic tone for single-line quotes */
+blockquote:not(:has(p + *)) { font-style: italic; }
+
 /* If your theme uses RTD/Dracula classes that override margins */
 .rst-content blockquote,
 .wy-nav-content blockquote { margin-left: 0 !important; margin-right: 0 !important; }
+
