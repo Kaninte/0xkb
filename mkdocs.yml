@@ -16,6 +16,8 @@ markdown_extensions:
   - nl2br 
   - toc:
       permalink: false
+  - codehilite:
+      guess_lang: false
 nav:
   - Home: index.md
   - OS:
