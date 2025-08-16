@@ -112,3 +112,14 @@ blockquote code { color: inherit; }
 .rst-content blockquote,
 .wy-nav-content blockquote { margin-left: 0 !important; margin-right: 0 !important; }
 
+/* Add line under top-level titles */
+h1 {
+  border-bottom: 1px solid #1a1d22; /* subtle dark grey line */
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  border-bottom: 1px solid #1a1d22;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.8rem;
+}
