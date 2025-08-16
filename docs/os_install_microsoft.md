@@ -8,7 +8,7 @@ Windows is a family of operating systems developed by Microsoft, designed for pe
 ### Install without MS Account
 > Allows you bypass the requirements that force you to install Windows 11 using a Microsoft account.
 
-**Step 1** \
+**Step 1**  
 Follow the install process until you get to the "choose a country" screen.
 
 **Step 2** \
