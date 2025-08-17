@@ -114,12 +114,12 @@ blockquote code { color: inherit; }
 
 /* Add line under top-level titles */
 h1 {
-  border-bottom: 1px solid #1a1d22; /* subtle dark grey line */
+  border-bottom: 1px solid #1e2126; /* subtle dark grey line */
   padding-bottom: 0.3rem;
   margin-bottom: 1rem;
 }
 h2 {
-  border-bottom: 1px solid #1a1d22;
+  border-bottom: 1px solid #1e2126;
   padding-bottom: 0.2rem;
   margin-bottom: 0.8rem;
 }
