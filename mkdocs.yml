@@ -24,8 +24,9 @@ nav:
   - LLM:
       - "LLM Jailbreaking": llm_jailbreaking.md
       - "LLM Gandalf": llm_gandalf.md
-    - Networrking:
+  - Networking:
       - "Ethernet Standards": networking-ethernet-standards.md
+      
 extra_css:
   - assets/heading-fix.css
   - assets/blacksite.css
