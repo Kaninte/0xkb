@@ -126,12 +126,12 @@ h2 {
 
 /* Force search bar background to solid black */
 input.drac-input-search {
-  background-color: #000 !important;
-  border: 1px solid #333 !important;  /* optional subtle border */
+  background-color: #121212 !important;
+  /* border: 1px solid #333 !important; */  /* optional subtle border */
   color: #fff !important;             /* text stays readable */
 }
 
 /* Placeholder text color */
 input.drac-input-search::placeholder {
-  color: #888 !important;
+  color: #b1b2b5 !important;
 }
