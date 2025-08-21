@@ -123,3 +123,15 @@ h2 {
   padding-bottom: 0.2rem;
   margin-bottom: 0.8rem;
 }
+
+/* Force search bar background to solid black */
+input.drac-input-search {
+  background-color: #000 !important;
+  border: 1px solid #333 !important;  /* optional subtle border */
+  color: #fff !important;             /* text stays readable */
+}
+
+/* Placeholder text color */
+input.drac-input-search::placeholder {
+  color: #888 !important;
+}
