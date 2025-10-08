@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Sitemap
+Sitemap: https://0xkb.n0signal.dev/sitemap.xml
