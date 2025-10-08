@@ -10,10 +10,6 @@ theme:
     title: false
   favicon: assets/favicon.ico
   logo: assets/logo.png
-
-sitemap:
-  exclude:
-    - '.*'
         
 markdown_extensions:
   - admonition
