@@ -11,11 +11,9 @@ theme:
   favicon: assets/favicon.ico
   logo: assets/logo.png
 
-plugins:
-  - search
-  - sitemap:
-      exclude:
-        - '.*'
+sitemap:
+  exclude:
+    - '.*'
         
 markdown_extensions:
   - admonition
