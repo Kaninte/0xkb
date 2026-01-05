@@ -19,13 +19,15 @@ markdown_extensions:
       
 nav:
   - Home: index.md
-  - OS:
-      - "Microsoft Install": os_install_microsoft.md
+  - Enumeration:
+      - "nmap": enumeration_nmap.md
   - LLM:
       - "LLM Jailbreaking": llm_jailbreaking.md
       - "LLM Gandalf": llm_gandalf.md
   - Networking:
       - "Ethernet Standards": networking-ethernet-standards.md
+  - OS:
+      - "Microsoft Install": os_install_microsoft.md
       
 extra_css:
   - assets/heading-fix.css
