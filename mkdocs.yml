@@ -16,6 +16,9 @@ markdown_extensions:
   - nl2br 
   - toc:
       permalink: false
+ 
+  plugins:
+  - awesome-pages
       
 extra_css:
   - assets/heading-fix.css
