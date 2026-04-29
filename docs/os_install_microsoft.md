@@ -6,14 +6,14 @@ Windows is a family of operating systems developed by Microsoft, designed for pe
 ## Windows 11
 
 ### Remove Bloat from Windows 11 iso (tiny11builder)
-> Powershell scripts that remove the bloatware from the Windows 11 installation .iso\
+> Powershell scripts that remove the bloatware from the Windows 11 installation .iso
 > *(can only build on windows 11)*
 
-**GitHub Repo**\
+**GitHub Repo**
 https://github.com/ntdevlabs/tiny11builder
 
 **Instalation**
-1. Download Windows 11 iso.\
+1. Download Windows 11 iso.
 https://www.microsoft.com/en-au/software-download/windows11
 
 2. Mount the iso to the computer using Windows Explorer.
