@@ -18,6 +18,7 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install mkdocs mkdocs-dracula-theme
+      - run: pip install mkdocs-awesome-pages-plugin
       - run: mkdocs build --site-dir _site
       - uses: actions/upload-pages-artifact@v3
         with:
