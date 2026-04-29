@@ -16,12 +16,14 @@ markdown_extensions:
   - nl2br 
   - toc:
       permalink: false
- 
-  plugins:
+
+plugins:
+  - search
   - awesome-pages
       
 extra_css:
   - assets/heading-fix.css
   - assets/blacksite.css
+
 extra_javascript:
   - assets/logo-link.js
