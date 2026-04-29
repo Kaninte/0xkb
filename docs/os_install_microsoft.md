@@ -10,11 +10,11 @@ Windows is a family of operating systems developed by Microsoft, designed for pe
 > *(can only build on windows 11)*
 
 **GitHub Repo**
-[https://github.com/ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder)
+<https://github.com/ntdevlabs/tiny11builder>
 
 **Instalation**
 1. Download Windows 11 iso.
-[https://www.microsoft.com/en-au/software-download/windows11](https://www.microsoft.com/en-au/software-download/windows11)
+<https://www.microsoft.com/en-au/software-download/windows11>
 
 2. Mount the iso to the computer using Windows Explorer.
 
