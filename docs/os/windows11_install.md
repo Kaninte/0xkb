@@ -1,11 +1,7 @@
-# OS Install Microsoft
-Reference material for installing Microsoft Windows, including workarounds for installation restrictions, bypassing hardware requirements, and license activation methods.
+# Windows 11 Installation
+Reference material for installing Microsoft Windows 11, including workarounds for installation restrictions, bypassing hardware requirements, and license activation methods.
 
-Windows is a family of operating systems developed by Microsoft, designed for personal computers, servers, and enterprise environments. 
-
-## Windows 11
-
-### Remove Bloat from Windows 11 iso (tiny11builder)
+## Remove Bloat from Windows 11 iso (tiny11builder)
 > Powershell scripts that remove the bloatware from the Windows 11 installation .iso
 > *(can only build on windows 11)*
 
@@ -37,7 +33,7 @@ C:/path/of/tiny11/script.ps1 -ISO <iso-letter> -SCRATCH <iso-letter>
 8. Wait for the installation to finish. On completion you will find the modified iso in the same folder as the script, with the name tiny11.iso
 
 
-### Install without MS Account
+## Install without MS Account
 > Allows you bypass the requirements that force you to install Windows 11 using a Microsoft account.
 
 **Step 1**  
@@ -61,7 +57,7 @@ Finish the setup, creating a local account.
 **Step 7**  
 Once windows is installed open up CMD and run `ipconfig /renew` to reenable internet access.
 
-### Bypass TPM Requirements
+## Bypass TPM Requirements
 
 **Step 1**  
 Start the installation process until you get to the screen that says "your PC can't run Windows 11".
@@ -85,7 +81,7 @@ Create the following DWORD entries in `LabConfig`:
 Create the following DWORD entries in `MoSetup`:  
 `AllowUpgradesWithUnsupportedTPMOrCPU` = 1
 
-### Install FireFox from Command-line
+## Install FireFox from Command-line
 > If using tiny11builder, windows edge won't be installed. To download a browser you'll need to use PowerShell.
 
 **Download**
@@ -98,10 +94,7 @@ Invoke-WebRequest -Uri "https://download.mozilla.org/?product=firefox-latest&os=
 Start-Process "$env:USERPROFILE\Downloads\FirefoxInstaller.exe"
 ```
 
-### Microsoft Activation Scripts (MAS)
-```diff
-- For educational purposes only
-```
+## Microsoft Activation Scripts (MAS) | EDUCATIONAL USE ONLY
 > Open-source Windows and Office activator featuring HWID, Ohook, KMS38, and Online KMS activation methods.
 
 **Step 1**  
