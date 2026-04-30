@@ -1,5 +1,12 @@
 # Nmap
 
+## Quick Reference
+```shell
+# default port scans for lab environments
+nmap -sS -T4 {target ip}
+nmap -sV -T4 -p{ports} {target ip}
+```
+
 ## Commands
 
 ### Host Discovery
@@ -16,23 +23,23 @@ nmap 192.168.0.1/24 # subnet
 ### Port Scan
 **Flags**
 ```bash
--p[range] # Port number range. '-p-' scans all ports
--Pn # Scan hosts that appear down
+-p[range] # port number range. '-p-' scans all ports
+-Pn # scan hosts that appear down
 
--sT # TCP 3-way handshake
--sS # TCP SYN only (stealth)
--sU # UDP Scan
+-sT # tcp 3-way handshake
+-sS # tcp syn only (stealth)
+-sU # udp Scan
 
--sN #Null Scan (stealth/firewall)
+-sN # null Scan (stealth/firewall)
 ```
 
 ### Further Enumeration
 ```bash
--O # OS detection
--sV # Service/Version detection
--A # OS/Service/Version detection
+-O # os detection
+-sV # service/version detection
+-A # os/service/version detection
 
---traceroute # Perform traceroute to target
+--traceroute # perform traceroute to target
 ```
 
 ### Timing/Speed
@@ -50,7 +57,7 @@ nmap 192.168.0.1/24 # subnet
 --max-parallelism <numprobes> # max number of parallel probes
 --min-rate <number> # min rate (packets/sec)
 --max-rate <number> # max rate (packets/sec)
---host-timeout # Max time to wait for target
+--host-timeout # max time to wait for target
 ```
 
 ### Verbosity/Debug
@@ -61,8 +68,8 @@ nmap 192.168.0.1/24 # subnet
 ```
 **Saving Scans**
 ```bash
--oN <filename> # Normal output
--oX <filename> # XML output
--oG <filename> # Grep-able output
--oA <filename> # Output all formats
+-oN <filename> # normal output
+-oX <filename> # xml output
+-oG <filename> # grep-able output
+-oA <filename> # output all formats
 ```

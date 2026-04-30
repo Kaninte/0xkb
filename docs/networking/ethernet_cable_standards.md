@@ -1,4 +1,4 @@
-# Networking Ethernet Standards
+# Ethernet Cable Standards
 
 ## TIA-568 Cabling Standards
 
